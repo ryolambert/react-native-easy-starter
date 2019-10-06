@@ -1,8 +1,8 @@
 platform :ios, '9.0'
 require_relative '../node_modules/@react-native-community/cli-platform-ios/native_modules'
 
-target 'easy_boiler' do
-  # Pods for easy_boiler
+target 'ABQVoteRedux' do
+  # Pods for ABQVoteRedux
   pod 'FBLazyVector', :path => "../node_modules/react-native/Libraries/FBLazyVector"
   pod 'FBReactNativeSpec', :path => "../node_modules/react-native/Libraries/FBReactNativeSpec"
   pod 'RCTRequired', :path => "../node_modules/react-native/Libraries/RCTRequired"
@@ -41,7 +41,7 @@ target 'easy_boiler' do
   pod 'CodePush', :path => '../node_modules/react-native-code-push'
 
 
-  target 'easy_boilerTests' do
+  target 'ABQVoteReduxTests' do
     inherit! :search_paths
     # Pods for testing
   end
@@ -49,10 +49,10 @@ target 'easy_boiler' do
   use_native_modules!
 end
 
-target 'easy_boiler-tvOS' do
-  # Pods for easy_boiler-tvOS
+target 'ABQVoteRedux-tvOS' do
+  # Pods for ABQVoteRedux-tvOS
 
-  target 'easy_boiler-tvOSTests' do
+  target 'ABQVoteRedux-tvOSTests' do
     inherit! :search_paths
     # Pods for testing
   end
